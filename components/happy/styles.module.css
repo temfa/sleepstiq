@@ -1,0 +1,130 @@
+.happyContainer {
+    padding: 176px 0px 152px;
+}
+
+.happyWrapper {
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    width: 77%;
+    max-width: 1109px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    height: 700px;
+}
+
+.happySide {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.happySide div {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.happySide div h3 {
+    color: #12305B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.happySide div h2 {
+    color: #12305B;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+}
+
+.rectangle {
+    background-color: #FFD7231A;
+    width: 240px;
+    height: 47px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.happySide div p {
+    width: 475px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #21384299;
+}
+
+.happySide div a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.happyRight {
+    width: 474px;
+}
+
+.happySlide {
+    box-shadow: 0px 100px 100px 0px #00000025;
+    background-color: #FBF9F2;
+    padding: 55px 8px 63px 40px;
+    display: flex !important;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.happySlide>h2 {
+    margin-bottom: 53px;
+    height: 200px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+
+@media screen and (max-width:1024px) {
+    .happyWrapper {
+        gap: 64px;
+        max-width: 100%;
+        width: 85%;
+        justify-content: space-between;
+    }
+
+    .happySide {
+        width: 45%;
+    }
+
+    .happySide div p {
+        width: unset;
+    }
+
+    .happyRight {
+        width: 48%;
+    }
+
+    .rectangle {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .happyWrapper {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .happySide,
+    .happyRight,
+    .happySlide {
+        width: 100%;
+    }
+}

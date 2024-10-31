@@ -1,0 +1,149 @@
+.aboutProduct {
+    width: 79%;
+    max-width: 1101px;
+    margin: 0px auto;
+    display: flex;
+    gap: 203px;
+    padding: 73px 0px 125px;
+    border-bottom: 1px solid #21384218;
+}
+
+.aboutProductSide {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 100px;
+}
+
+.aboutProductSide>h2 {
+    color: #12305B;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.aboutProductDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.aboutProductDetails>p {
+    color: #21384299;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.aboutProductDetails div h3 {
+    color: #4D533C;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.aboutProductEarn {
+    display: flex;
+    gap: 53px;
+}
+
+.aboutProductPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.aboutProductPrice p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.aboutProductPrice h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+
+.aboutProductUnit {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.aboutProductUnit p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.unit {
+    display: flex;
+    align-items: center;
+    padding: 4px 0px;
+    border: 1px solid#12305B;
+    border-radius: 5px;
+    width: 63px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.unit div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.unit div h2 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+
+.aboutProductSide button {
+    width: 225px;
+    background-color: #FC5959;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 16px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutProduct {
+        gap: 64px;
+        max-width: 100%;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 811px) {
+    .aboutProduct {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .aboutProductSide {
+        margin-top: 0px;
+    }
+}

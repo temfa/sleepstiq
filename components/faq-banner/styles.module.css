@@ -1,0 +1,72 @@
+.faqBanner {
+    background-color: #FBF9F2;
+    padding: 24px 0px 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+}
+
+.faqBannerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 78%;
+    max-width: 1116px;
+    margin: 0px auto;
+}
+
+.faqBannerContent p {
+    color: #12305B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.faqBannerContent h2 {
+    color: #12305B;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 74px;
+    text-align: left;
+}
+
+.faqBannerContent div {
+    width: 859px;
+    background-color: white;
+    padding: 27px 0px 19px 58px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.faqBannerContent div input {
+    border: none;
+    color: #12305B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    width: 90%;
+}
+
+@media screen and (max-width:811px) {
+    .faqBannerContent div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .faqBannerContent {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .faqBannerContent h2 {
+        font-size: 40px;
+    }
+
+    .faqBannerContent div {
+        padding: 16px 24px;
+    }
+}

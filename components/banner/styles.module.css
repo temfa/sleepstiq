@@ -1,0 +1,78 @@
+.bannerContainer {
+    width: 100%;
+    background-image: url("../../public/images/banner-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 811px;
+    position: relative;
+    padding-top: 23px;
+}
+
+.bannerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 78%;
+    max-width: 1116px;
+    margin: 115px auto 0px;
+}
+
+.bannerWrapper div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.bannerWrapper div h3 {
+    color: #12305B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.bannerWrapper div h2 {
+    color: #12305B;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+}
+
+.bannerWrapper div p {
+    width: 581px;
+    color: #12305B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.bannerWrapper button {
+    width: 225px;
+    padding: 16px 0px 15px;
+    border-radius: 5px;
+    background-color: #FC5959;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .bannerWrapper {
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .bannerWrapper div h2 {
+        font-size: 48px;
+    }
+
+    .bannerWrapper div p {
+        width: 90%;
+    }
+}

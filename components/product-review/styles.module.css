@@ -1,0 +1,50 @@
+.productReviewContainer {
+    padding: 92px 0px 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    overflow-x: hidden;
+    height: 835px;
+}
+
+.productReviewContainer>h2 {
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.productWrap {
+    width: 100%;
+    position: relative;
+}
+
+.productWrapper {
+    width: 1275px;
+    /* display: flex;
+    gap: 53px; */
+    position: absolute;
+    right: 0;
+    margin-top: 52px;
+    margin-bottom: 225px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .productReviewContainer>h2 {
+        margin-left: 0px;
+    }
+
+    .productReviewContainer {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .productWrapper {
+        width: 100%;
+    }
+}

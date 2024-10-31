@@ -1,0 +1,35 @@
+.shopBanner {
+    background-image: url("../../public/images/shop-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+    padding-top: 24px;
+}
+
+.shopWrapper {
+    width: 78%;
+    max-width: 1116px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.shopWrapper p {
+    color: #12305B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.shopWrapper h2 {
+    color: #12305B;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+}

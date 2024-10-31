@@ -1,0 +1,62 @@
+.visitContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 1110px;
+    margin: 0px auto;
+    padding: 160px 0px;
+    border-bottom: 1px solid #21384218;
+}
+
+.visitContainer h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+    color: #12305B
+}
+
+.visitContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #21384299;
+    width: 915px;
+    margin: 0px auto;
+}
+
+.visitContainer button {
+    width: 225px;
+    padding: 16px 0px;
+    border-radius: 5px;
+    background-color: #FC5959;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    letter-spacing: 0.01em;
+    border: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .visitContainer {
+        width: 100%;
+    }
+
+    .visitContainer p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .visitContainer {
+        width: 95%;
+    }
+
+    .visitContainer p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,20 @@
+.partnersContainer {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: white;
+    width: 1276px;
+    justify-content: center;
+    padding: 37px 0px 43px 0px;
+    position: absolute;
+    right: 0px;
+    border-radius: 2px;
+    bottom: -66px;
+    box-shadow: 50px 50px 100px 0px #00000025;
+}
+
+@media screen and (max-width:881px) {
+    .partnersContainer {
+        display: none;
+    }
+}
